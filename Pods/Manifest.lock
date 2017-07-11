@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.4.0)
+  - MBProgressHUD (1.0.0)
+  - MobileCenter (0.7.0):
+    - MobileCenter/MobileCenterAnalytics (= 0.7.0)
+    - MobileCenter/MobileCenterCrashes (= 0.7.0)
+  - MobileCenter/MobileCenter (0.7.0)
+  - MobileCenter/MobileCenterAnalytics (0.7.0):
+    - MobileCenter/MobileCenter
+  - MobileCenter/MobileCenterCrashes (0.7.0):
+    - MobileCenter/MobileCenter
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - MBProgressHUD (~> 1.0.0)
+  - MobileCenter
+  - SwiftyJSON (~> 3.1.4)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MobileCenter: c43ae6275786068f2e29c0dab82fb5785be18d82
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a41bfe99183729c227561ed7cef16191c9e830ad
+
+COCOAPODS: 1.2.0

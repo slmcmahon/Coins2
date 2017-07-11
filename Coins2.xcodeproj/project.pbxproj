@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8DCFBF1EF9A1D200AE2377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DCFBE1EF9A1D200AE2377 /* AppDelegate.swift */; };
+		3E8DCFC11EF9A1D200AE2377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DCFC01EF9A1D200AE2377 /* ViewController.swift */; };
+		3E8DCFC41EF9A1D200AE2377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DCFC21EF9A1D200AE2377 /* Main.storyboard */; };
+		3E8DCFC61EF9A1D200AE2377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DCFC51EF9A1D200AE2377 /* Assets.xcassets */; };
+		3E8DCFC91EF9A1D200AE2377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DCFC71EF9A1D200AE2377 /* LaunchScreen.storyboard */; };
+		3E8DCFD41EF9A1D200AE2377 /* Coins2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DCFD31EF9A1D200AE2377 /* Coins2Tests.swift */; };
+		3E8DCFDF1EF9AEA700AE2377 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DCFDE1EF9AEA700AE2377 /* CoinViewModel.swift */; };
+		3E8DCFE11EF9B46700AE2377 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8DCFE01EF9B46700AE2377 /* Constants.swift */; };
+		6A64087BDE0E06603378F779 /* Pods_Coins2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BE3D41E481B2471ABCD95 /* Pods_Coins2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E8DCFD01EF9A1D200AE2377 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E8DCFB31EF9A1D200AE2377 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E8DCFBA1EF9A1D200AE2377;
+			remoteInfo = Coins2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C77D49BF2C693BD341461E0 /* Pods-Coins2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coins2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coins2/Pods-Coins2.debug.xcconfig"; sourceTree = "<group>"; };
+		3E8DCFBB1EF9A1D200AE2377 /* Coins2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coins2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8DCFBE1EF9A1D200AE2377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E8DCFC01EF9A1D200AE2377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E8DCFC31EF9A1D200AE2377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E8DCFC51EF9A1D200AE2377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E8DCFC81EF9A1D200AE2377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E8DCFCA1EF9A1D200AE2377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8DCFCF1EF9A1D200AE2377 /* Coins2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coins2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8DCFD31EF9A1D200AE2377 /* Coins2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coins2Tests.swift; sourceTree = "<group>"; };
+		3E8DCFD51EF9A1D200AE2377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E8DCFDE1EF9AEA700AE2377 /* CoinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		3E8DCFE01EF9B46700AE2377 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8A0BE3D41E481B2471ABCD95 /* Pods_Coins2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coins2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFDA8E242F1F4566C93E77C /* Pods-Coins2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coins2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coins2/Pods-Coins2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8DCFB81EF9A1D200AE2377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A64087BDE0E06603378F779 /* Pods_Coins2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8DCFCC1EF9A1D200AE2377 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B564FBA1BC15CC57D1B2F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A0BE3D41E481B2471ABCD95 /* Pods_Coins2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E8DCFB21EF9A1D200AE2377 = {
+			isa = PBXGroup;
+			children = (
+				3E8DCFBD1EF9A1D200AE2377 /* Coins2 */,
+				3E8DCFD21EF9A1D200AE2377 /* Coins2Tests */,
+				3E8DCFBC1EF9A1D200AE2377 /* Products */,
+				6990233B2E0A735F65D953C0 /* Pods */,
+				1B564FBA1BC15CC57D1B2F4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8DCFBC1EF9A1D200AE2377 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8DCFBB1EF9A1D200AE2377 /* Coins2.app */,
+				3E8DCFCF1EF9A1D200AE2377 /* Coins2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8DCFBD1EF9A1D200AE2377 /* Coins2 */ = {
+			isa = PBXGroup;
+			children = (
+				3E8DCFBE1EF9A1D200AE2377 /* AppDelegate.swift */,
+				3E8DCFC01EF9A1D200AE2377 /* ViewController.swift */,
+				3E8DCFC21EF9A1D200AE2377 /* Main.storyboard */,
+				3E8DCFC51EF9A1D200AE2377 /* Assets.xcassets */,
+				3E8DCFC71EF9A1D200AE2377 /* LaunchScreen.storyboard */,
+				3E8DCFCA1EF9A1D200AE2377 /* Info.plist */,
+				3E8DCFDE1EF9AEA700AE2377 /* CoinViewModel.swift */,
+				3E8DCFE01EF9B46700AE2377 /* Constants.swift */,
+			);
+			path = Coins2;
+			sourceTree = "<group>";
+		};
+		3E8DCFD21EF9A1D200AE2377 /* Coins2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E8DCFD31EF9A1D200AE2377 /* Coins2Tests.swift */,
+				3E8DCFD51EF9A1D200AE2377 /* Info.plist */,
+			);
+			path = Coins2Tests;
+			sourceTree = "<group>";
+		};
+		6990233B2E0A735F65D953C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C77D49BF2C693BD341461E0 /* Pods-Coins2.debug.xcconfig */,
+				BAFDA8E242F1F4566C93E77C /* Pods-Coins2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8DCFBA1EF9A1D200AE2377 /* Coins2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8DCFD81EF9A1D200AE2377 /* Build configuration list for PBXNativeTarget "Coins2" */;
+			buildPhases = (
+				2D99AE743FFC695A49C9F1C9 /* [CP] Check Pods Manifest.lock */,
+				3E8DCFB71EF9A1D200AE2377 /* Sources */,
+				3E8DCFB81EF9A1D200AE2377 /* Frameworks */,
+				3E8DCFB91EF9A1D200AE2377 /* Resources */,
+				6D4686D29657D03FA8BD405C /* [CP] Embed Pods Frameworks */,
+				FB7764DE2A8745C35B35D093 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coins2;
+			productName = Coins2;
+			productReference = 3E8DCFBB1EF9A1D200AE2377 /* Coins2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E8DCFCE1EF9A1D200AE2377 /* Coins2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8DCFDB1EF9A1D200AE2377 /* Build configuration list for PBXNativeTarget "Coins2Tests" */;
+			buildPhases = (
+				3E8DCFCB1EF9A1D200AE2377 /* Sources */,
+				3E8DCFCC1EF9A1D200AE2377 /* Frameworks */,
+				3E8DCFCD1EF9A1D200AE2377 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E8DCFD11EF9A1D200AE2377 /* PBXTargetDependency */,
+			);
+			name = Coins2Tests;
+			productName = Coins2Tests;
+			productReference = 3E8DCFCF1EF9A1D200AE2377 /* Coins2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8DCFB31EF9A1D200AE2377 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Stephen McMahon";
+				TargetAttributes = {
+					3E8DCFBA1EF9A1D200AE2377 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 54EDZNDKF9;
+						ProvisioningStyle = Automatic;
+					};
+					3E8DCFCE1EF9A1D200AE2377 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BX589QM9NW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E8DCFBA1EF9A1D200AE2377;
+					};
+				};
+			};
+			buildConfigurationList = 3E8DCFB61EF9A1D200AE2377 /* Build configuration list for PBXProject "Coins2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E8DCFB21EF9A1D200AE2377;
+			productRefGroup = 3E8DCFBC1EF9A1D200AE2377 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8DCFBA1EF9A1D200AE2377 /* Coins2 */,
+				3E8DCFCE1EF9A1D200AE2377 /* Coins2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8DCFB91EF9A1D200AE2377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8DCFC91EF9A1D200AE2377 /* LaunchScreen.storyboard in Resources */,
+				3E8DCFC61EF9A1D200AE2377 /* Assets.xcassets in Resources */,
+				3E8DCFC41EF9A1D200AE2377 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8DCFCD1EF9A1D200AE2377 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D99AE743FFC695A49C9F1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4686D29657D03FA8BD405C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coins2/Pods-Coins2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7764DE2A8745C35B35D093 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coins2/Pods-Coins2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8DCFB71EF9A1D200AE2377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8DCFDF1EF9AEA700AE2377 /* CoinViewModel.swift in Sources */,
+				3E8DCFC11EF9A1D200AE2377 /* ViewController.swift in Sources */,
+				3E8DCFBF1EF9A1D200AE2377 /* AppDelegate.swift in Sources */,
+				3E8DCFE11EF9B46700AE2377 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E8DCFCB1EF9A1D200AE2377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8DCFD41EF9A1D200AE2377 /* Coins2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E8DCFD11EF9A1D200AE2377 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E8DCFBA1EF9A1D200AE2377 /* Coins2 */;
+			targetProxy = 3E8DCFD01EF9A1D200AE2377 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E8DCFC21EF9A1D200AE2377 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8DCFC31EF9A1D200AE2377 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E8DCFC71EF9A1D200AE2377 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8DCFC81EF9A1D200AE2377 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E8DCFD61EF9A1D200AE2377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E8DCFD71EF9A1D200AE2377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E8DCFD91EF9A1D200AE2377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C77D49BF2C693BD341461E0 /* Pods-Coins2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54EDZNDKF9;
+				INFOPLIST_FILE = Coins2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slmcmahon.Coins2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E8DCFDA1EF9A1D200AE2377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFDA8E242F1F4566C93E77C /* Pods-Coins2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54EDZNDKF9;
+				INFOPLIST_FILE = Coins2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slmcmahon.Coins2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E8DCFDC1EF9A1D200AE2377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BX589QM9NW;
+				INFOPLIST_FILE = Coins2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slmcmahon.Coins2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coins2.app/Coins2";
+			};
+			name = Debug;
+		};
+		3E8DCFDD1EF9A1D200AE2377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BX589QM9NW;
+				INFOPLIST_FILE = Coins2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slmcmahon.Coins2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coins2.app/Coins2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8DCFB61EF9A1D200AE2377 /* Build configuration list for PBXProject "Coins2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8DCFD61EF9A1D200AE2377 /* Debug */,
+				3E8DCFD71EF9A1D200AE2377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8DCFD81EF9A1D200AE2377 /* Build configuration list for PBXNativeTarget "Coins2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8DCFD91EF9A1D200AE2377 /* Debug */,
+				3E8DCFDA1EF9A1D200AE2377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8DCFDB1EF9A1D200AE2377 /* Build configuration list for PBXNativeTarget "Coins2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8DCFDC1EF9A1D200AE2377 /* Debug */,
+				3E8DCFDD1EF9A1D200AE2377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E8DCFB31EF9A1D200AE2377 /* Project object */;
+}
