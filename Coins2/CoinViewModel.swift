@@ -11,19 +11,7 @@ import Alamofire
 import SwiftyJSON
 
 class CoinViewModel {
-    var _coinLookup : [String:String]
-    
-    init() {
-        _coinLookup = [
-            "b579bb4d-8b73-4609-bc79-168aaa5d499e": "Quarter",
-            "e37e12e1-7371-4453-9b9d-0ad1a3f66b3f": "Penny",
-            "16d39636-5ce5-4022-a98f-85e66e84a524": "Nickel",
-            "9280095b-0241-42fd-9d3f-2f4606bb36db": "Half Dollar",
-            "9011fba8-63e6-408f-b59c-f18dff457464": "Dollar",
-            "e95f0bd8-4759-4e1d-8736-7031f7d4834b": "Dime"
-        ]
-    }
-    
+
     func recognizeImage(onSuccess:@escaping (String) -> Void, onFailure:@escaping (String) -> Void, image : UIImage) {
         let resized = self.resizeImage(image: image, size: CGSize(width: image.size.width / 4.0, height: image.size.height / 4.0))
         let imgData = UIImagePNGRepresentation(resized)
@@ -57,8 +45,7 @@ class CoinViewModel {
         var coinProbability = 0.00000001
         
         for dic in predictions {
-            let tagId = dic["TagId"].string
-            let tag = dic["Tag"].string
+            let tag = dic["Tag"].string!
             let pb = dic["Probability"].doubleValue
             let percent = pb * 100
             if tag == "All Coins" {
@@ -72,7 +59,8 @@ class CoinViewModel {
             
             if (pb > coinProbability) {
                 coinProbability = pb
-                coinName = _coinLookup[tagId!]!
+                // all of the tags are pluralized, but we want to refer to the singular form in the response.
+                coinName = tag == "Pennies" ? "Penny" : tag.substring(to: tag.index(before: tag.endIndex))
             }
         }
         
